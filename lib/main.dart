@@ -24,10 +24,6 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blueGrey,
         useMaterial3: true,
       ),
-      routes: {
-        '/mainscreen': (_) => const MyApp(),
-        '/createnote': (_) => const CreateNote(),
-      },
       home: const MyHomePage(title: 'Sample notes application'),
     );
   }
